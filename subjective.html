@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Class Activity 3</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="icon" type="image/x-icon" href="Logo_last.png">
+
+
+  <style>
+        
+
+.correct{
+    background-color: rgb(167, 225, 243);
+    border-radius: 50%;
+    width:100px;
+    height: 50px;
+   font-weight: bold;
+   
+}
+
+
+  </style>
+
+
+
+</head>
+
+
+<body>
+  <audio id="cheers" >
+    <source src="cheers.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="points" src="Points.mp3"></audio>
+  <audio id="fail" src="fail.mp3"></audio>
+  <div class="header" style="width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0); padding-bottom:10px;">
+    <img src="Logo.png" width="5%" style="float:left; margin-top:25px;" class="img-responsive">
+    <span> <img src="header.png" width="30%" height="100px" class="img-responsive"></span>
+</div>
+<br>
+<br>
+  <center>
+    
+    <h1 id="heading" style="font-family: Impact">Lets Revise With The Teacher</h1>
+    <div class="maindiv container" style="padding-top: 50px;">
+  
+  
+     <p style="font-size: 20px;">Q1.  Explain why we use a singular verb with the subject "each" in a sentence.
+  
+      <br><br>
+  
+      <label id="label1"></label> 
+         <button onclick="func1()" id="btn1" class="correct">Check</button> <br><br>
+  
+       Q2.  Explain the rule for subject-verb agreement when using "either...or" or "neither...nor" in a sentence.
+       <br><br>
+  
+  
+       <label id="label2"></label>
+      <button onclick="func2()" id="btn2" class="correct">Check</button>
+       <br> <br>
+  
+  
+       Q3.  Describe how subject-verb agreement works with compound subjects joined by "and."
+       <br><br>
+  
+  
+       <label id="label3"></label>
+      <button onclick="func3()" id="btn3" class="correct">Check</button>
+       <br> <br>
+  
+       Q4.  A “dog” is a singular noun, so why should we use “barks” and not “bark” in a sentence?
+       <br><br>
+  
+  
+       <label id="label4"></label>
+      <button onclick="func4()" id="btn4" class="correct">Check</button>
+       <br> <br>
+  
+       Q5.  What is a compound subject?
+       <br><br>
+  
+  
+       <label id="label5"></label>
+      <button onclick="func5()" id="btn5" class="correct">Check</button>
+       <br> <br>
+    </p> 
+  </div>
+    <script>
+      
+             function func1(){
+              document.getElementById('label1').innerHTML="We use a singular verb with 'each' because it refers to individual items or people within a group, considered one at a time. 'Each' emphasizes the singular nature of the items or individuals, even when they are part of a larger group. For example: 'Each student has a different schedule' is correct, not 'Each student have a different schedule.'"
+              document.getElementById('btn1').style.display="none"
+             }
+  
+             function func2(){
+              document.getElementById('label2').innerHTML="When using 'either...or' or 'neither...nor,' the verb agrees with the subject nearest to it.<br>Example: 'Either the dogs or the cat is responsible for the mess.' (cat is closer, so we use 'is')"
+              document.getElementById('btn2').style.display="none"
+             }
+  
+             function func3(){
+              document.getElementById('label3').innerHTML="When two or more subjects are joined by 'and,' they typically take a plural verb because the subjects are considered together. However, if the compound subject refers to a single person or thing, or if the subjects are preceded by 'each' or 'every,' use a singular verb."
+              document.getElementById('btn3').style.display="none"
+             }
+  
+             function func4(){
+              document.getElementById('label4').innerHTML="Since 'dog' is a singular noun, and it fits the third-person singular category, we use the verb form 'barks' to maintain correct subject-verb agreement."
+              document.getElementById('btn4').style.display="none"
+             }
+  
+             function func5(){
+              document.getElementById('label5').innerHTML="A compound subject is two or more nouns, pronouns, or noun phrases acting together as the subject of a clause or sentence."
+              document.getElementById('btn5').style.display="none"
+             }
+  
+    </script>
+</center>
+</body>
+</html>

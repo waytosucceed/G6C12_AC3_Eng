@@ -1,0 +1,122 @@
+[
+  {
+    "questionNo": "Q1.",
+    "question": "The flock of birds _____ in the sky.",
+    "options": ["fly", "flies", "flying", "is flying"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q2.",
+    "question": "Neither the cat nor the dogs _____ interested in the toy.",
+    "options": ["is", "are", "was", "were"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q3.",
+    "question": "The cat ____ on the mat.",
+    "options": ["sit", "sits", "sitting", "are sitting"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q4.",
+    "question": "The dogs ____ in the park.",
+    "options": ["play", "plays", "playing", "played"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q5.",
+    "question": "She ____ very fast.",
+    "options": ["run", "runs", "running", "runned"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q6.",
+    "question": "Tom and Jerry ____ best friends.",
+    "options": ["is", "are", "was", "be"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q7.",
+    "question": "Neither the teacher nor the students ____ the answer.",
+    "options": ["knows", "know", "knowing", "known"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q8.",
+    "question": "Bread and butter ____ my favourite breakfast.",
+    "options": ["is", "are", "were"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q9.",
+    "question": "The book, along with the notes, ____ on the table.",
+    "options": ["is", "are", "be", "were"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q10.",
+    "question": "There ____ a lot of homework to do.",
+    "options": ["is", "are", "be", "were"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q11.",
+    "question": "Here ____ the keys you lost.",
+    "options": ["is", "are", "be", "were"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q12.",
+    "question": "A lot of time ____ needed to finish this.",
+    "options": ["is", "are", "be", "were"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q13.",
+    "question": "A series of accidents _____ occurred on this road recently. (has/have)",
+    "options": ["has", "have"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q14.",
+    "question": "Twenty dollars _____ too much for that old book. (is/are)",
+    "options": ["is", "are"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q15.",
+    "question": "Neither of the candidates _____ suitable for the position. (seem/seems)",
+    "options": ["seem", "seems"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q16.",
+    "question": "The jury _____ still deliberating on the verdict. (is/are)",
+    "options": ["is", "are"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q17.",
+    "question": "A flock of geese _____ flying overhead. (was/had)",
+    "options": ["was", "had"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q18.",
+    "question": "The scissors _____ missing from the drawer. (is/are)",
+    "options": ["is", "are"],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q19.",
+    "question": "Physics _____ my favourite subject in school. (was/were)",
+    "options": ["was", "were"],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q20.",
+    "question": "The news of the earthquake _____ shocked everyone. (has/have)",
+    "options": ["has", "have"],
+    "correct": 0
+  }
+]
